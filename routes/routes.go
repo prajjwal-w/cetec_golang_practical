@@ -5,6 +5,7 @@ import (
 	"github.com/prajjwal-w/cetec_golang_practical/controller"
 )
 
+// defining routes
 func Routes(routes *gin.Engine) {
 	routes.GET("/person/:person_id/info", controller.GetPerson())
 	routes.POST("/person/create", controller.CreatePerson())

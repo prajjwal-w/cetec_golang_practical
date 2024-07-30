@@ -1,5 +1,6 @@
 package models
 
+//person model
 type Person struct {
 	Name        string `json:"name"`
 	PhoneNumber string `json:"phone_number"`
